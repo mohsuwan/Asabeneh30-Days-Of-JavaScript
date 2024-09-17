@@ -1,0 +1,133 @@
+*{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+body h1{
+    letter-spacing: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.change-span{
+    background-color: aqua;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    padding-left: 10px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    gap: 50px;
+    font-size: 17px;
+}
+
+.card1{
+    border: 1px solid aqua;
+    height: 200px;
+    width: 200px;
+    background-color: #00ffff1f;
+    
+
+}
+.card1:hover{
+  background-color: rgba(0, 255, 98, 0.269);
+  border: 1px solid;
+  /* padding: 3px; */
+  box-shadow: 3px 5px 4px #797fef;
+  transition: 1s;
+    
+
+}
+.card2{
+    border: 1px solid aqua;
+    height: 200px;
+    width: 200px;
+    background-color: #00ffff1f;
+
+
+}
+.card2:hover{
+    background-color: rgba(0, 255, 98, 0.269);
+    border: 1px solid;
+    /* padding: 3px; */
+    box-shadow: 3px 5px 4px #797fef;
+    transition: 1s;
+}
+.card3{
+    border: 1px solid aqua;
+    height: 200px;
+    width: 200px;
+    background-color: #00ffff1f;
+
+
+}
+.card3:hover{  
+    background-color: rgba(0, 255, 98, 0.269);
+    border: 1px solid;
+    /* padding: 3px; */
+    box-shadow: 3px 5px 4px #797fef;
+    transition: 1s;
+}
+.technologies{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 5px;
+ }
+
+ @keyframes fadeIn {
+    0% { opacity: 0; margin-left:20%; }
+    /* 50% { opacity: .5; } */
+    100% { opacity: 1; margin-left: 50%; }
+
+
+  }
+  #first-things span{
+    animation: fadeIn 10s;
+    position: absolute;
+    /* width: 100%; */
+    /* margin-left: 20%; */
+    /* transform: translateX(+50%); */
+    /* transition: 1.5s; */
+
+
+  }
+  #socend-things span{
+    animation: fadeIn 10s;
+
+  }
+
+ .React{
+color: blue; 
+
+}
+
+.JavaScript{
+    color: red;
+}
+
+.Mongodb{
+    color: yellow;
+}
+.Resux{
+color: green;
+}
+.Nampy{
+    color: pink;
+}
+.Node{
+    color: purple;
+}

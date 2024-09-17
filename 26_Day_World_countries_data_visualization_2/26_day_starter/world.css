@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+
+}
+
+.search{
+   background-image:  linear-gradient(rgba(26, 62, 204, 0.208),rgba(139, 160, 244, 0.217)), url("./images/globe-2.jpg");
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: white;
+
+}
+.search h1{
+    letter-spacing: 5px;
+
+}
+#buttonForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+}
+.buttons{
+    margin: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.buttons #starting_word{
+    color: wheat;
+    background-color: #38189b;
+    border: none;
+    width: 100px;
+    height: 40px;
+}
+.buttons #search_word{
+    color: wheat;
+    background-color: #38189b;
+    border: none;
+    height: 40px;
+
+
+}
+.buttons #az_to{
+    color: wheat;
+    background-color: #38189b;
+    border: none;
+    height: 40px;
+
+
+}
+/* .search span{
+ width: 2px;
+ height: 2px;
+} */
+
+.search #input_can{
+  /* border-radius: 25%; */
+  margin: 20px;
+  height: 30px;
+  width: 350px;
+}
+
+.countriesTick{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  gap: 10px;
+    
+}

@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h2>Validating Web Form</h2>
+    </header>
+
+    <h4>First Name</h4>
+    <input id="First-Name" name="" type="text"onblur="firstNameValid()" />
+    <div id="firstNameError"></div>
+    <!-- <input id="inputId" name="" type="text" />
+    <div class="firstNameError"></div> -->
+
+    <h4>Last Name</h4>
+    <input id="Last-Name" name="" type="text" onblur="lastNameValid()" />
+    <div id="lastNameError"></div>
+
+    <h4>Email</h4>
+    <input id="Email" name="" type="email" onblur="emailValid()" />
+    <div id="emailError"></div>
+
+    <h4>Password</h4>
+    <input id="Password" name="" type="password" onblur="passwordValid()"   />
+    <div id="passwordError"></div>
+
+    <h4>Telephone</h4>
+    <input id="Telephone" name="" type="tel" onblur="telephoneValid()" />
+    <div id="telephoneError"></div>
+
+    <h4>Your bio</h4>
+    <input id="Your-bio" name="" type="text" onblur="bioValid()" />
+    <div id="bioError"></div>
+    <br /><br />
+
+    <span></span> <button id="Submit-button">Submit</button><span></span>
+    <script src="./script.js"></script>
+  </body>
+</html>

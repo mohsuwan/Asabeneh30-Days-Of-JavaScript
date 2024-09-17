@@ -1,0 +1,76 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: sans-serif;
+    border-bottom: 1px #80808061 solid;
+    background-color: #e5eded;
+
+}
+header h2{
+    color: orange;
+        margin-bottom: auto;
+        font-size: xx-large;
+}
+
+.graph-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+   margin-top: 15px;
+    font-family: sans-serif;
+    
+    
+}
+.graph-buttons button{
+    background-color: orange;
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-size: larger;
+}
+.graph-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    border-bottom: 1px #80808061 solid;
+}
+.graph-wrapper #para_population{
+    display: none;
+}
+
+footer{
+    background-color: #e5eded;
+}
+.data_mining{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    display: none;
+    
+}
+.SMSM{
+    display: flex;
+    align-items: center;
+}
+
+#socend{
+    width: 40rem;
+    margin-left: 2rem;
+}
+
+
+.data_mining span{
+    display: flex;
+    justify-content: flex-start;
+    background-color: orange;
+    margin-bottom: 2px;
+    width: 2px;
+  
+}

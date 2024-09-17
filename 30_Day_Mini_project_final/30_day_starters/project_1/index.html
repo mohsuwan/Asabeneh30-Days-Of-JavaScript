@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="./scripts/countries.css" />
+<!-- <title>30DaysOfJavaScript:30</title> -->
+<html>
+  <head> </head>
+
+  <body>
+    <div class="header">
+      <nav >
+        <h1>world countries data</h1>
+        <p>currently, we have 250 countries</p>
+      </nav>
+      <input id="searchInput" type="text" placeholder="search" />
+      <nav id="allButtons">
+        <button id="countName">NAME</button>
+        <button id="countCapital">CAPITAL</button>
+        <button id="countPopulation">POPULATION</button>
+      </nav>
+    </div>
+    <div id="allCountries" style="display: flex; flex-wrap: wrap; align-items: center; gap: 50px; justify-content: center;"/>
+   
+    <!-- <div id="allCountries"></div> -->
+
+    <script src="./data/countries_data.js"></script>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>

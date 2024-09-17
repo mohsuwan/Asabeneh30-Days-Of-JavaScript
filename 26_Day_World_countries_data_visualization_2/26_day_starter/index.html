@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="./world.css" />
+<html lang="en">
+  <head>
+    <title>30DaysOfJavaScript:11 Day</title>
+  </head>
+
+  <body>
+    <div class="search">
+      <h1>world countries list</h1>
+      <h3>total number of countries: 139</h3>
+      <h4>countries contaning</h4>
+      <div class="buttons">
+        <form id="buttonForm">
+          <button id="starting_word" value="starting">STARTING WORD</button>
+          <button id="search_word" value="search">SEARCH WITH ANY WORD</button>
+        </form>
+
+        <button id="az_to" onclick="reverseCont()">az</button>
+      </div>
+      <!-- <span></span> -->
+      <input id="input_can" type="text" placeholder="search countries ..." />
+      <!-- <span></span> -->
+    </div>
+    <div>
+      <ul class="countriesTick" id="countriesTick">
+        <span></span>
+      </ul>
+    </div>
+
+    <script src="./data/countries.js"></script>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>

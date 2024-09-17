@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body h5 {
+  display: flex;
+  /* align-items: start; */
+}
+body input {
+  height: 30px;
+  width: 35%;
+  border: 1px solid green;
+}
+body button {
+  height: 35px;
+  width: 20%;
+  background-color: darkgrey;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+.buttonIfAll{
+    height: 35px;
+    width: 20%;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+.buttonAll{
+    height: 35px;
+    width: 20%;
+    background-color: darkgrey;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+body div {
+  color: #ffa500;
+  margin: 10px 0;
+  font-weight: bold;
+}

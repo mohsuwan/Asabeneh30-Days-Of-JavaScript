@@ -1,0 +1,132 @@
+body{
+    background-image: url(./images/galaxy.gif);
+    
+}
+.allOption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-around; */
+    margin-left: 20%;
+    margin-right: 20%;
+    
+    gap: 20px;
+}
+
+h1{
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 6%;
+}
+
+input{
+    height: 35px;
+    width: 235px;
+    box-sizing: border-box;
+    border: none;
+    background-color: white;
+    
+
+}
+select{
+    height: 35px;
+    width: 160px;
+    color: gray;
+    border-radius: 10%;
+
+}
+
+
+button{
+        color: white;
+        background: rgba(194, 171, 171, 0.7);
+        border-radius: 10%;
+        border: 0cap;
+        padding: 2%;
+        height: 35px;
+        width: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background: rgba(219, 211, 211, 0.336);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* #defimg{
+    display: none;  
+    
+} */
+
+#error_message{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    background: rgba(219, 211, 211, 0.336);
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    color: white;
+    font-size: 20px;
+    display: none;  
+    
+    
+}
+#message_tow{
+    
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    background: rgba(219, 211, 211, 0.336);
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
+    color: white;
+    font-size: 20px;
+    display: none;
+
+}
+#finel_message{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+
+    display: none;
+}
+#finel_message #isDone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(137, 122, 122, 0.568);
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+#finel_message #isDone p{
+    font-size: 22px;
+}
+#finel_message #isDone h2{
+    width: auto;
+    height: 100px;
+    background: rgba(219, 211, 211, 0.336);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#finel_message img{
+    width: 250px;
+    height: 250px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Solar System: Document Object Model:30 Days Of JavaScript</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./galaxy.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Calculate a weight of an object on a planet</h1>
+      <div class="allOption">
+        <input type="text" id="mass" placeholder="Mass in Kilogram" />
+        <select id="planetsel">
+          <option value="">--select planet--</option>
+          <option value="earth">earth</option>
+          <option value="jupiter">jupiter</option>
+          <option value="mars">mars</option>
+          <option value="mercury">mercury</option>
+          <option value="moon">moon</option>
+          <option value="neptune">neptune</option>
+          <option value="pluto">pluto</option>
+          <option value="saturn">saturn</option>
+          <option value="uranus">uranus</option>
+          <option value="venus">venus</option>
+        </select>
+        <button id="submit_button" type="submit" style="cursor: pointer">
+          Calculate weight
+        </button>
+      </div>
+    </header>
+    <main>
+      <div class="flex-container">
+        <div id="defimg" class="flex-item image">
+          <img  src="./images/earth.png" class="planet-image" />
+        </div>
+
+
+        
+        
+        <div id="error_message">
+          <p>Mass is required</p>
+        </div>
+        <div id="message_tow">
+          <p>You did not choose a planet yet</p>
+        </div>
+        
+        <div id="finel_message" class="flex-item description">
+          <img id="planet-img" src="./images/moon.png" >
+          <div id="isDone">
+          <p>The weight of the object on <strong id="name_of">moon</strong></p>
+          <h2 id="width_of_all">154515</h2>
+        </div>
+        </div>  
+      </div>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

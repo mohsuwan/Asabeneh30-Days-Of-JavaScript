@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.font {
+  font-family: "Courier New", Courier, monospace;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+  height: 100dvh;
+  width: 100dvw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
